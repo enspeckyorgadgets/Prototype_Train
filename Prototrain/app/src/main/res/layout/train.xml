@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/shoulders"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Shoulders" />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/chest"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Chest" />
+
+        <Button
+            android:id="@+id/arms"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Arms" />
+
+        <Button
+            android:id="@+id/core"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Core" />
+
+        <Button
+            android:id="@+id/legs"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="Legs" />
+
+
+    </LinearLayout>
+</LinearLayout>

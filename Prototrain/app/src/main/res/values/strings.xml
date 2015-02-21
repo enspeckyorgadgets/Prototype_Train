@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prototrain</string>
+    <string name="title_activity_main">Train</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_activity">Activity</string>
+    <string name="action_camera">Camera></string>
+    <string name="action_following">Following</string>
+    <string name="action_train">Train></string>
+
+</resources>

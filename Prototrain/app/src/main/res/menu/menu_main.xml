@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="trainapp.prototrain.MainActivity">
+
+    <item
+        android:id="@+id/action_train"
+        android:orderInCategory="100"
+        android:icon="@drawable/train"
+        android:title="Train"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_following"
+        android:orderInCategory="100"
+        android:icon="@drawable/following"
+        android:title="@string/action_following"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="@string/action_camera"
+        android:icon="@drawable/camera"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_activity"
+        android:orderInCategory="100"
+        android:icon="@drawable/activity"
+        android:title="@string/action_activity"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:icon="@drawable/profile"
+        android:title="@string/action_profile"
+        app:showAsAction="always" />
+
+</menu>
